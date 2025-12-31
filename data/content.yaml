@@ -4,7 +4,7 @@ profile:
   tagline: Building robust test platforms and automation systems that drive quality and efficiency
   photo: images/1694917209758.jpg
   location: Newton, Massachusetts
-  bio: Senior manufacturing software test engineer with 4.5 years supporting high-volume wearable production. I architect Python-based factory test platforms that increased yield from 95% to 99% while reducing cycle time by 75%. I bring production-grade software practices to hardware testing, implementing automated releases, CI/CD pipelines, and rigorous validation that prevents unverified code from reaching manufacturing.
+  bio: Senior manufacturing software test engineer with 4.5 years supporting high-volume wearable production. Architects Python-based factory test platforms that increased yield from 95% to 99% while reducing cycle time by 75%. Brings production-grade software practices—CI/CD, automated releases, and rigorous validation—to hardware testing environments.
   
 contact:
   email: arbowl@tutanota.com
@@ -14,31 +14,30 @@ contact:
   website: drewbowler.com
 
 skills:
-  - category: Languages & Frameworks
+  - category: Factory Test Automation
     items:
-      - Python
-      - C#
-      - Jinja2
-      - JavaScript
-      - SQL
-      - HTML/CSS
-  
-  - category: Test & Automation
-    items:
-      - Factory Test Systems
-      - Automated Testing
+      - Python Test Platforms
       - CI/CD Pipelines
       - Hardware Validation
-      - Fixture Design
-      - Data Analysis
   
-  - category: Tools & Technologies
+  - category: Manufacturing Systems
     items:
-      - GitHub Actions
-      - Git
-      - Pytest, Mypy, Pylint, and Black
       - MES Integration
-      - PowerBI
+      - Live Production Monitoring
+      - Result Artifact Analysis
+  
+  - category: Hardware & Fixtures
+    items:
+      - Functional, Final, & Burn-In Testing
+      - ECG Continuity, IMU Calibration, & Haptic Validation
+      - Custom Drivers & Tooling
+  
+  - category: Software Development
+    items:
+      - Unit Testing & Simulation
+      - Validation & Verification
+      - Automated Releases & Deployment
+
 
 experience:
   - title: Senior Test Development Engineer
