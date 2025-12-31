@@ -172,8 +172,14 @@ def generate_html(data: dict) -> str:
             <div class="projects-grid">'''
     for project in featured_projects:
         tags_html = ' '.join([f'<span class="tag">{tag}</span>' for tag in project.get('tags', [])])
+        image_html = ''
+        if 'image' in project and project['image']:
+            image_html = f'''
+                    <div class="project-image">
+                        <img src="images/{project['image']}" alt="{project['title']}">
+                    </div>'''
         html += f'''
-                <div class="project-card">
+                <div class="project-card">{image_html}
                     <div class="project-header">
                         <h3>{project['title']}</h3>
                         <span class="period">{project['period']}</span>
@@ -597,11 +603,26 @@ nav {
     transition: all 0.3s;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .project-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 20px var(--shadow);
+}
+
+.project-image {
+    margin: -2rem -2rem 1.5rem -2rem;
+    width: calc(100% + 4rem);
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
 }
 
 .project-header {

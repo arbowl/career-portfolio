@@ -46,11 +46,12 @@ experience:
     location: Boston, MA
     period: July 2022 - Present
     highlights:
-      - Architected Python-based factory test platform supporting 20 automated stations across four production lines, enabling daily throughput in the thousands
-      - Led Gen 4 to Gen 5 factory test evolution, improving first-pass yield from ~95% to ~99% through sensor validation and failure classification
-      - Owned factory software release pipeline, integrating GitHub Actions for automated testing, build, and deployment
-      - Implemented production-grade software controls including mandatory unit testing and software hash validation
-  
+      - Architected and maintained a Python-based factory test platform supporting 20 automated stations across four production lines, enabling daily throughput in the thousands and lifetime production in the millions.
+      - Led Gen 4 to Gen 5 factory test evolution, improving first-pass yield from ~95% to ~99% through tighter sensor validation, calibration routines, and failure classification.
+      - Designed and validated ECG test fixtures and contributed to all major fixture designs spanning board-level test, system functional test, firmware update, and burn-in stations.
+      - Implemented production-grade software controls including mandatory unit and simulation testing, test report generation, and software hash validation to prevent unverified code from reaching manufacturing.
+      - Owned the factory software release pipeline, integrating GitHub Actions for automated testing, build, and deployment while coordinating internal sign-off and Arena-controlled external releases.
+
   - title: Product Industrialization Test Engineer
     company: Philips
     location: Cambridge, MA
@@ -83,7 +84,7 @@ projects:
   - title: Beacon Hill Compliance Tracker
     url: https://beaconhilltracker.org
     description: Adaptive legislative document parsing pipeline and state-machine-driven timeline engine that tracks Massachusetts Legislature compliance with procedural rules. Enables auditable, rule-based detection of deviations over time with full provenance tracking.
-    image: beacon-tracker.png
+    image: bhct.png
     tags:
       - Python
       - Document Parsing
@@ -95,13 +96,37 @@ projects:
   - title: Beacon Hill Stipends
     url: https://beaconhillstipends.org
     description: Statute-driven compensation calculation system for all 198 Massachusetts legislators. Every computed value is wrapped in a provenance object providing transparent, traceable explanations for each salary component.
-    image: beacon-stipends.png
+    image: bhst.png
     tags:
       - Python
       - Provenance
       - Pipelines
       - Modeling
     period: November 2025 - Present
+    featured: true
+  
+  - title: RasPi Cyberdeck
+    url: https://github.com/arbowl/cyberdeck-battery-indicator
+    description: Portable battery-powered Raspberry Pi fully enclosed in a Pelican case. Hosts a retro games emulator, media server, and screen mirroring. Includes a custom-coded battery indicator and power management system.
+    image: cyberdeck.png
+    tags:
+      - Raspberry Pi
+      - RetroPi
+      - Power Management
+      - NAS
+    period: March 2021 - Present
+    featured: true
+
+  - title: Homelab
+    url: https://github.com/arbowl/budget-interface
+    description: Home automation server running a variety of self-hosted services, such as Pi-hole for adblocking, Nextcloud for cloud storage, and a small host of self-authored apps, such as budgeting, password management, and health tracking.
+    image: budget.jpg
+    tags:
+      - WireGuard
+      - Adblocking
+      - Budgeting
+      - Cloud Storage
+    period: December 2024 - Present
     featured: true
 
 education:
