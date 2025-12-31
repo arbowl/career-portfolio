@@ -513,32 +513,32 @@ footer p {
         gap: 1rem;
         font-size: 0.875rem;
     }
-    
+
     .hero h1 {
         font-size: 2rem;
     }
-    
+
     .hero h2 {
         font-size: 1.25rem;
     }
-    
+
     .tagline {
         font-size: 1rem;
     }
-    
+
     .section-title {
         font-size: 2rem;
     }
-    
+
     .skills-grid,
     .projects-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .about-meta {
         gap: 1.5rem;
     }
-    
+
     .experience-header {
         flex-direction: column;
     }
@@ -548,20 +548,20 @@ footer p {
     .container {
         padding: 0 1rem;
     }
-    
+
     .nav-content {
         padding: 1rem;
     }
-    
+
     .nav-links {
         display: none;
     }
-    
+
     .hero-image img {
         width: 150px;
         height: 150px;
     }
-    
+
     .hero h1 {
         font-size: 1.75rem;
     }

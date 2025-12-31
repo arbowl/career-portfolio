@@ -29,6 +29,7 @@ def generate_html(data: dict) -> str:
     education = data['education']
     featured_projects = [p for p in projects if p.get('featured', False)]
     photo_filename = Path(profile['photo']).name
+    site_url = "https://arbowl.github.io/career-portfolio"
     html = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,6 +37,32 @@ def generate_html(data: dict) -> str:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{profile['tagline']}">
     <title>{profile['name']} - {profile['title']}</title>
+    <meta property="og:title" content="{profile['name']} - {profile['title']}">
+    <meta property="og:description" content="{profile['tagline']}">
+    <meta property="og:image" content="{site_url}/images/og-default.png">
+    <meta property="og:url" content="{site_url}">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{profile['name']} - {profile['title']}">
+    <meta name="twitter:description" content="{profile['tagline']}">
+    <meta name="twitter:image" content="{site_url}/images/og-default.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/manifest.json">
+    <meta name="msapplication-TileColor" content="#1a3a52">
+    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#1a3a52">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -842,14 +869,14 @@ def main() -> None:
     with open(docs_dir / 'script.js', 'w', encoding='utf-8') as f:
         f.write(js)
     print('Copying images...')
-    photo_path = data['profile']['photo']
-    photo_src = Path('data') / photo_path
-    if photo_src.exists():
-        photo_filename = Path(photo_path).name
-        shutil.copy(photo_src, docs_images_dir / photo_filename)
-        print(f'  Copied {photo_filename}')
+    data_images_dir = Path('data/images')
+    if data_images_dir.exists():
+        for image_file in data_images_dir.iterdir():
+            if image_file.is_file():
+                shutil.copy(image_file, docs_images_dir / image_file.name)
+                print(f'  Copied {image_file.name}')
     else:
-        print(f'  Warning: Photo not found at {photo_src}')
+        print('  Warning: data/images directory not found')
     print('\nPortfolio generated successfully!')
     print(f'Output location: {docs_dir.absolute()}')
     print('\nTo preview locally, open docs/index.html in your browser')

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const backToTopButton = document.getElementById('back-to-top');
     const nav = document.getElementById('nav');
-    
+
     window.addEventListener('scroll', function() {
         if (window.pageYOffset > 300) {
             backToTopButton.classList.add('visible');
@@ -9,14 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
             backToTopButton.classList.remove('visible');
         }
     });
-    
+
     backToTopButton.addEventListener('click', function() {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
     });
-    
+
     const navLinks = document.querySelectorAll('.nav-links a, .hero-links a[href^="#"]');
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
