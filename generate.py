@@ -89,6 +89,7 @@ def generate_html(data: dict) -> str:
             <p class="tagline">{profile['tagline']}</p>
             <div class="hero-links">
                 <a href="mailto:{contact['email']}" class="btn">Email</a>
+                <a href="{profile.get('resume', '#')}" class="btn btn-secondary" download>Resume</a>
                 <a href="https://github.com/{contact['github']}" class="btn btn-secondary" target="_blank">GitHub</a>
                 <a href="https://linkedin.com/{contact['linkedin']}" class="btn btn-secondary" target="_blank">LinkedIn</a>
             </div>
@@ -877,6 +878,13 @@ def main() -> None:
                 print(f'  Copied {image_file.name}')
     else:
         print('  Warning: data/images directory not found')
+    if 'resume' in data['profile']:
+        resume_path = Path('data') / data['profile']['resume']
+        if resume_path.exists():
+            shutil.copy(resume_path, docs_dir / resume_path.name)
+            print(f'Copied resume: {resume_path.name}')
+        else:
+            print(f'Warning: Resume not found at {resume_path}')
     print('\nPortfolio generated successfully!')
     print(f'Output location: {docs_dir.absolute()}')
     print('\nTo preview locally, open docs/index.html in your browser')

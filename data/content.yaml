@@ -3,6 +3,7 @@ profile:
   title: Senior Manufacturing Test Engineer
   tagline: Building robust test platforms and automation systems that drive quality and efficiency
   photo: images/1694917209758.jpg
+  resume: bowler_andrew_resume.pdf
   location: Newton, Massachusetts
   bio: Senior manufacturing software test engineer with 4.5 years supporting high-volume wearable production. Architects Python-based factory test platforms that increased yield from 95% to 99% while reducing cycle time by 75%. Brings production-grade software practices—CI/CD, automated releases, and rigorous validation—to hardware testing environments.
   
