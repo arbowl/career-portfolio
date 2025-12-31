@@ -1,0 +1,111 @@
+profile:
+  name: Drew Bowler
+  title: Senior Manufacturing Test Engineer
+  tagline: Building robust test platforms and automation systems that drive quality and efficiency
+  photo: images/1694917209758.jpg
+  location: Newton, Massachusetts
+  bio: Senior manufacturing software test engineer with 4.5 years supporting high-volume wearable production. I architect Python-based factory test platforms that increased yield from 95% to 99% while reducing cycle time by 75%. I bring production-grade software practices to hardware testing, implementing automated releases, CI/CD pipelines, and rigorous validation that prevents unverified code from reaching manufacturing.
+  
+contact:
+  email: arbowl@tutanota.com
+  phone: (978) 763-5124
+  linkedin: in/drewbowler
+  github: arbowl
+  website: drewbowler.com
+
+skills:
+  - category: Languages & Frameworks
+    items:
+      - Python
+      - C#
+      - Jinja2
+      - JavaScript
+      - SQL
+      - HTML/CSS
+  
+  - category: Test & Automation
+    items:
+      - Factory Test Systems
+      - Automated Testing
+      - CI/CD Pipelines
+      - Hardware Validation
+      - Fixture Design
+      - Data Analysis
+  
+  - category: Tools & Technologies
+    items:
+      - GitHub Actions
+      - Git
+      - Pytest, Mypy, Pylint, and Black
+      - MES Integration
+      - PowerBI
+
+experience:
+  - title: Senior Test Development Engineer
+    company: WHOOP
+    location: Boston, MA
+    period: July 2022 - Present
+    highlights:
+      - Architected Python-based factory test platform supporting 20 automated stations across four production lines, enabling daily throughput in the thousands
+      - Led Gen 4 to Gen 5 factory test evolution, improving first-pass yield from ~95% to ~99% through sensor validation and failure classification
+      - Owned factory software release pipeline, integrating GitHub Actions for automated testing, build, and deployment
+      - Implemented production-grade software controls including mandatory unit testing and software hash validation
+  
+  - title: Product Industrialization Test Engineer
+    company: Philips
+    location: Cambridge, MA
+    period: June 2021 - July 2022
+    highlights:
+      - Re-architected legacy LabVIEW-based test report parsing by rewriting in C#, reducing runtime by over 80%
+      - Managed critical test network software by writing and scheduling SQL database sorting using PowerShell scripts to speed up global share-drive data collection
+      - Supported emergency CAPA effort using Python and Minitab to analyze over 2,000 production units
+    
+  - title: Electrical Engineering Intern
+    company: Geophysical Survey Systems, Inc.
+    location: Nashua, NH
+    period: January 2020 - June 2020
+    highlights:
+      - Developed software to control a 3-axis CNC machine using Python, Lua, and Mach4 to enable ground-penetrating radar (GPR) antennas to synchronize position and measurement data
+      - Simulated GPR antennas using XFdtd to varying degrees of real-world accuracy to compare the measured electromagnetic properties of the insulating foam to the nominal values
+      - Replicated real-world test cases of GPR applications in XFdtd and used MATLAB to generate data from existing samples to enable faster testing and research during quarantine
+    
+  - title: Test Engineer Co-Op
+    company: Philips
+    location: Andover, MA
+    period: January 2019 - August 2019
+    highlights:
+      - Self-taught Mentor Graphics to create the source files and communicated with Sunstone and Screaming Circuits to produce the new PCB interface
+      - Wrote and filled out verification/qualification/instruction forms to ensure industrial and legal compliance
+      - Learned C# and SCPI to update legacy software to integrate a new arbitrary waveform generator into an existing calibration setup for outgoing ultrasound equipment
+
+
+projects:
+  - title: Beacon Hill Compliance Tracker
+    url: https://beaconhilltracker.org
+    description: Adaptive legislative document parsing pipeline and state-machine-driven timeline engine that tracks Massachusetts Legislature compliance with procedural rules. Enables auditable, rule-based detection of deviations over time with full provenance tracking.
+    image: beacon-tracker.png
+    tags:
+      - Python
+      - Document Parsing
+      - State Machines
+      - Scraping
+    period: August 2025 - Present
+    featured: true
+  
+  - title: Beacon Hill Stipends
+    url: https://beaconhillstipends.org
+    description: Statute-driven compensation calculation system for all 198 Massachusetts legislators. Every computed value is wrapped in a provenance object providing transparent, traceable explanations for each salary component.
+    image: beacon-stipends.png
+    tags:
+      - Python
+      - Provenance
+      - Pipelines
+      - Modeling
+    period: November 2025 - Present
+    featured: true
+
+education:
+  degree: B.S. Computer Engineering, Magna Cum Laude
+  institution: University of Massachusetts Lowell
+  year: 2021
+
