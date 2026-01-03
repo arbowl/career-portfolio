@@ -7,12 +7,14 @@ profile:
   location: Newton, Massachusetts
   bio: Senior manufacturing software test engineer with 4.5 years supporting high-volume wearable production. Architects Python-based factory test platforms that increased yield from 95% to 99% while reducing cycle time by 75%. Brings production-grade software practices—CI/CD, automated releases, and rigorous validation—to hardware testing environments.
   
+  
 contact:
   email: arbowl@tutanota.com
   phone: (978) 763-5124
   linkedin: in/drewbowler
   github: arbowl
   website: drewbowler.com
+
 
 skills:
   - category: Factory Test Automation
@@ -38,6 +40,18 @@ skills:
       - Unit Testing & Simulation
       - Validation & Verification
       - Automated Releases & Deployment
+  
+  - category: Technologies & Protocols
+    items:
+      - Linux (Workstations & Embedded)
+      - ECG, IMU, PPG, LED, NFC, & Haptics
+      - UART, BLE, SPI, I2C, USB, & Ethernet
+  
+  - category: Teamwork & Leadership
+    items:
+      - Co-Op Mentorship
+      - Cross-Functional Collaboration
+      - International Coordination
 
 
 experience:
@@ -128,6 +142,7 @@ projects:
       - Cloud Storage
     period: December 2024 - Present
     featured: true
+
 
 education:
   degree: B.S. Computer Engineering, Magna Cum Laude
