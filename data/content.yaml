@@ -121,7 +121,7 @@ projects:
   
   - title: RasPi Cyberdeck
     url: https://github.com/arbowl/cyberdeck-battery-indicator
-    description: Portable battery-powered Raspberry Pi fully enclosed in a Pelican case. Hosts a retro games emulator, media server, and screen mirroring. Includes a custom-coded battery indicator and power management system.
+    description: Portable battery-powered Raspberry Pi fully enclosed in a Pelican case. Hosts a retro games emulator, media server, and screen mirroring. Includes a custom-coded battery indicator and power management system. Also runs Meshcore.
     image: cyberdeck.png
     tags:
       - Raspberry Pi
@@ -131,16 +131,16 @@ projects:
     period: March 2021 - Present
     featured: true
 
-  - title: Homelab
-    url: https://github.com/arbowl/budget-interface
-    description: Home automation server running a variety of self-hosted services, such as Pi-hole for adblocking, Nextcloud for cloud storage, and a small host of self-authored apps, such as budgeting, password management, and health tracking.
-    image: budget.jpg
+  - title: Meshcore
+    url: https://github.com/arbowl/meshcore
+    description: A hexagonal core which connects to an ESP32 Meshtastic radio node and provides an event-driven adapter layer. UI components allow users to send and receives messages, as well as track telemetry from the local network.
+    image: meshcore.png
     tags:
-      - WireGuard
-      - Adblocking
-      - Budgeting
-      - Cloud Storage
-    period: December 2024 - Present
+      - Radio
+      - ESP32
+      - Hexagonal
+      - Mesh Networking
+    period: January 2026 - Present
     featured: true
 
 
