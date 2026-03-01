@@ -55,10 +55,16 @@ skills:
 
 
 experience:
+  - title: Staff Software Engineer
+    company: Boston Dynamics
+    location: Waltham, MA
+    period: February 2026 - Present
+    highlights: ""
+
   - title: Senior Test Development Engineer
     company: WHOOP
     location: Boston, MA
-    period: July 2022 - Present
+    period: July 2022 - February 2026
     highlights:
       - Architected and maintained a Python-based factory test platform supporting 20 automated stations across four production lines, enabling daily throughput in the thousands and lifetime production in the millions.
       - Led Gen 4 to Gen 5 factory test evolution, improving first-pass yield from ~95% to ~99% through tighter sensor validation, calibration routines, and failure classification.
