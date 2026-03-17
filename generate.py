@@ -60,9 +60,9 @@ def generate_html(data: dict) -> str:
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="manifest" href="images/manifest.json">
-    <meta name="msapplication-TileColor" content="#1a3a52">
+    <meta name="msapplication-TileColor" content="#A17941">
     <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
-    <meta name="theme-color" content="#1a3a52">
+    <meta name="theme-color" content="#A17941">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -197,7 +197,7 @@ def generate_html(data: dict) -> str:
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
-                <p>I'm always interested in discussing test automation, manufacturing software, or civic technology projects.</p>
+                <p>I'm always interested in discussing opportunities, questions, and projects.</p>
                 <div class="contact-links">
                     <a href="mailto:{contact['email']}" class="contact-link">
                         <span class="contact-label">Email</span>
@@ -248,11 +248,11 @@ def generate_css() -> str:
 }
 
 :root {
-    --navy: #1a3a52;
-    --navy-light: #2d5570;
-    --navy-dark: #0f2537;
-    --gold: #f4c430;
-    --gold-light: #ffd966;
+    --navy: #A17941;
+    --navy-light: #c49a5a;
+    --navy-dark: #7a5c30;
+    --gold: #fffde4;
+    --gold-light: #fffff5;
     --off-white: #fafafa;
     --white: #ffffff;
     --text-dark: #2c3e50;

@@ -1,157 +1,107 @@
 profile:
-  name: Drew Bowler
-  title: Senior Manufacturing Test Engineer
-  tagline: Building robust test platforms and automation systems that drive quality and efficiency.
+  name: Sophia Hultman
+  title: Technical Writer
+  tagline: Creating hardware and software documentation with key stakeholders to deliver quality resources to customers.
   photo: images/1694917209758.jpg
-  resume: bowler_andrew_resume.pdf
+  resume: hultman_sophia_resume.pdf
   location: Newton, Massachusetts
-  bio: Senior manufacturing software test engineer with 4.5 years supporting high-volume wearable production. Architects Python-based factory test platforms that increased yield from 95% to 99% while reducing cycle time by 75%. Brings production-grade software practices—CI/CD, automated releases, and rigorous validation—to hardware testing environments.
+  bio: Senior technical writer with 4.5 years supporting biomedical device documentation. Creates comprehensive documentation for hardware and software solutions, ensuring alignment with regulatory requirements and user needs.
   
   
 contact:
-  email: arbowl@tutanota.com
-  phone: (978) 763-5124
-  linkedin: in/drewbowler
-  github: arbowl
-  website: drewbowler.com
+  email: sophia.hultman99@gmail.com
+  phone: (781) 738-4528
+  linkedin: in/sophia-h-6838b2124/
+  github: shultman99
+  website: sophiahultman.com
 
 
 skills:
-  - category: Factory Test Automation
+  - category: User Manuals & Guides
     items:
-      - Python Test Platforms
-      - CI/CD Pipelines
-      - Hardware Validation
+      - Azenta Limfinity® Biobanking LIMS
+      - AstraZeneca Cell Management
+      - Aware Fingerprint & Knomi Face Capture
   
-  - category: Manufacturing Systems
+  - category: Service Procedures
     items:
-      - MES Integration
-      - Live Production Monitoring
-      - Result Artifact Analysis
+      - CryoExchange Teach Procedures
+      - BioStore FRU Procedure
+      - Installation Operational & Performance Qualifications
   
-  - category: Hardware & Fixtures
+  - category: Translations & Localizations
     items:
-      - Functional, Final, & Burn-In Testing
-      - ECG Continuity, IMU Calibration, & Haptic Validation
-      - Custom Drivers & Tooling
+      - Romance (Spanish, French & Italian)
+      - Slavic (Croatian & Slovakian)
+      - Asian (Japanese & Korean)
   
-  - category: Software Development
+  - category: Architecture
     items:
-      - Unit Testing & Simulation
-      - Validation & Verification
-      - Automated Releases & Deployment
-  
-  - category: Technologies & Protocols
-    items:
-      - Linux (Workstations & Embedded)
-      - ECG, IMU, PPG, LED, NFC, & Haptics
-      - UART, BLE, SPI, I2C, USB, & Ethernet
-  
-  - category: Teamwork & Leadership
-    items:
-      - Co-Op Mentorship
-      - Cross-Functional Collaboration
-      - International Coordination
+      - Company Rebrand Workflows
+      - Documentation Style Guides
+      - SVN Document Control Systems
 
 
 experience:
-  - title: Staff Software Engineer
-    company: Boston Dynamics
-    location: Waltham, MA
-    period: February 2026 - Present
-    highlights: ""
-
-  - title: Senior Test Development Engineer
-    company: WHOOP
-    location: Boston, MA
-    period: July 2022 - February 2026
+  - title: Technical Writer II
+    company: Aware, Inc.
+    location: Burlington, MA
+    period: December 2024 - Present
     highlights:
-      - Architected and maintained a Python-based factory test platform supporting 20 automated stations across four production lines, enabling daily throughput in the thousands and lifetime production in the millions.
-      - Led Gen 4 to Gen 5 factory test evolution, improving first-pass yield from ~95% to ~99% through tighter sensor validation, calibration routines, and failure classification.
-      - Designed and validated ECG test fixtures and contributed to all major fixture designs spanning board-level test, system functional test, firmware update, and burn-in stations.
-      - Implemented production-grade software controls including mandatory unit and simulation testing, test report generation, and software hash validation to prevent unverified code from reaching manufacturing.
-      - Owned the factory software release pipeline, integrating GitHub Actions for automated testing, build, and deployment while coordinating internal sign-off and Arena-controlled external releases.
+      - Collaborated cross-discipline with Subject Matter Experts and key Stakeholders to review, edit, and publish documentation for external and internal users for Aware products.
+      - Collaborated with Aware Inc.'s Marketing team to develop a standardized, customer-facing documentation template in MadCap Flare, aligned with Aware Branding Guidelines. This template is now adopted across all user manuals for all product families.
+      - Recognized the need for a structured document management process at Aware. Conducted a gap analysis and developed a strategic roadmap to improve workflows. Evaluated, tested, and implemented tools such as MadCap Flare, DocuWare, and SharePoint to establish an end-to-end system covering content authoring, version control, review, approval, final release, and storage.
+      - Identified the absence of a centralized, scalable repository for published documentation at Aware. Created an interim database in SharePoint to store and organize final document versions for company-wide access. Concurrently implemented DocuWare to establish a long-term, searchable database for maintaining up-to-date documentation.
+      - Identified gaps in cross-functional collaboration between Product and Marketing at Aware, impacting customer deadlines.
+      - Initiated and led weekly stakeholder meetings to align on product updates and release schedules, improving communication and ensuring timely customer-facing releases.
+      - Assisted in writing API documentation, providing clear instructions and examples to help users understand and implement basic functionality.
 
-  - title: Product Industrialization Test Engineer
-    company: Philips
-    location: Cambridge, MA
-    period: June 2021 - July 2022
+  - title: Technical Writer II
+    company: Azenta Life Sciences
+    location: Burlington, MA
+    period: February 2024 - December 2024
+    highlights:
+      - Created SOPs that streamlined Service & Repair technician workflows, documenting hardware and software updates in collaboration with Azenta Service engineers to improve customer support.
+      - "Translation Expert: Managed manual translations using Lingo and Flare, coordinating raw content file exchanges and publishing translated materials to support global expansion."
+      - "Limfinity® Biobanking LIMS Expert: Wrote four software user manuals (60–400 pages) from the ground up, leveraging demo environments to document all functions with annotated visuals and Flare-based procedures, enhancing usability for researchers, clinicians, patients, and internal staff."
+      - Evaluated software tools for video creation, CAD model design, and interactive documentation, presenting top recommendations to management to expand customer content offerings.
+
+  - title: Technical Writer I
+    company: Aware Life Sciences
+    location: Burlington, MA
+    period: May 2021 - February 2024
     highlights:
       - Re-architected legacy LabVIEW-based test report parsing by rewriting in C#, reducing runtime by over 80%
       - Managed critical test network software by writing and scheduling SQL database sorting using PowerShell scripts to speed up global share-drive data collection
       - Supported emergency CAPA effort using Python and Minitab to analyze over 2,000 production units
     
-  - title: Electrical Engineering Intern
-    company: Geophysical Survey Systems, Inc.
-    location: Nashua, NH
-    period: January 2020 - June 2020
-    highlights:
-      - Developed software to control a 3-axis CNC machine using Python, Lua, and Mach4 to enable ground-penetrating radar (GPR) antennas to synchronize position and measurement data
-      - Simulated GPR antennas using XFdtd to varying degrees of real-world accuracy to compare the measured electromagnetic properties of the insulating foam to the nominal values
-      - Replicated real-world test cases of GPR applications in XFdtd and used MATLAB to generate data from existing samples to enable faster testing and research during quarantine
+  - title: Writing Center Tutor
+    company: UMass Amherst Writing Center
+    location: Amherst, MA
+    period: September 2018 - May 2021
+    highlights: ""
     
-  - title: Test Engineer Co-Op
-    company: Philips
-    location: Andover, MA
-    period: January 2019 - August 2019
-    highlights:
-      - Self-taught Mentor Graphics to create the source files and communicated with Sunstone and Screaming Circuits to produce the new PCB interface
-      - Wrote and filled out verification/qualification/instruction forms to ensure industrial and legal compliance
-      - Learned C# and SCPI to update legacy software to integrate a new arbitrary waveform generator into an existing calibration setup for outgoing ultrasound equipment
-
+  - title: Social Media Marketing Specialist
+    company: Taproots Arts and Insights
+    location: Shutesbury, MA
+    period: February 2019 - May 2020
+    highlights: ""
 
 projects:
-  - title: Beacon Hill Compliance Tracker
-    url: https://beaconhilltracker.org
-    description: Adaptive legislative document parsing pipeline and state-machine-driven timeline engine that tracks Massachusetts Legislature compliance with procedural rules. Enables auditable, rule-based detection of deviations over time with full provenance tracking.
-    image: bhct.png
+  - title: Portfolio Website
+    url: https://github.com/shultman99/portfolio-website
+    description: Personal portfolio website built with Python and hosted on GitHub Pages.
     tags:
       - Python
-      - Document Parsing
-      - State Machines
-      - Scraping
-    period: August 2025 - Present
-    featured: true
-  
-  - title: Beacon Hill Stipends
-    url: https://beaconhillstipends.org
-    description: Statute-driven compensation calculation system for all 198 Massachusetts legislators. Every computed value is wrapped in a provenance object providing transparent, traceable explanations for each salary component.
-    image: bhst.png
-    tags:
-      - Python
-      - Provenance
-      - Pipelines
-      - Modeling
-    period: November 2025 - Present
-    featured: true
-  
-  - title: RasPi Cyberdeck
-    url: https://github.com/arbowl/cyberdeck-battery-indicator
-    description: Portable battery-powered Raspberry Pi fully enclosed in a Pelican case. Hosts a retro games emulator, media server, and screen mirroring. Includes a custom-coded battery indicator and power management system. Also runs Meshcore.
-    image: cyberdeck.png
-    tags:
-      - Raspberry Pi
-      - RetroPi
-      - Power Management
-      - NAS
-    period: March 2021 - Present
-    featured: true
-
-  - title: Meshcore
-    url: https://github.com/arbowl/meshcore
-    description: A hexagonal core which connects to an ESP32 Meshtastic radio node and provides an event-driven adapter layer. UI components allow users to send and receives messages, as well as track telemetry from the local network.
-    image: meshcore.png
-    tags:
-      - Radio
-      - ESP32
-      - Hexagonal
-      - Mesh Networking
-    period: January 2026 - Present
+      - Portfolio
+      - Projects
+      - YAML
+    period: February 2026 - Present
     featured: true
 
 
 education:
-  degree: B.S. Computer Engineering, Magna Cum Laude
-  institution: University of Massachusetts Lowell
+  degree: "B.A. English, GPA: 3.73"
+  institution: University of Massachusetts Amherst
   year: 2021
 
