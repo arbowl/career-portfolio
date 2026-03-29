@@ -5,7 +5,7 @@ profile:
   photo: images/1694917209758.jpg
   resume: hultman_sophia_resume.pdf
   location: Newton, Massachusetts
-  bio: Senior technical writer with 4.5 years supporting biomedical device documentation. Creates comprehensive documentation for hardware and software solutions, ensuring alignment with regulatory requirements and user needs.
+  bio: Technical Writer with 4+ years of experience making complex hardware and software systems easier to understand. Works closely with engineers and cross-functional teams to create clear, structured documentation and improve how content is built, organized, and delivered. Focused on usability, scalability, and real-world impact.
   
   
 contact:
@@ -34,11 +34,23 @@ skills:
       - Romance (Spanish, French & Italian)
       - Slavic (Croatian & Slovakian)
       - Asian (Japanese & Korean)
+
+  - category: Markup & Web
+    items:
+      - HTML
+      - CSS
+      - Markdown
+
+  - category: Authoring & Documentation
+    items:
+      - MadCap Flare
+      - MadCap Lingo
+      - Archbee
   
   - category: Architecture
     items:
       - Company Rebrand Workflows
-      - Documentation Style Guides
+      - Greenfield Architectural Development
       - SVN Document Control Systems
 
 
@@ -71,9 +83,9 @@ experience:
     location: Burlington, MA
     period: May 2021 - February 2024
     highlights:
-      - Re-architected legacy LabVIEW-based test report parsing by rewriting in C#, reducing runtime by over 80%
-      - Managed critical test network software by writing and scheduling SQL database sorting using PowerShell scripts to speed up global share-drive data collection
-      - Supported emergency CAPA effort using Python and Minitab to analyze over 2,000 production units
+      - Authored comprehensive end-user manuals (60–400 pages) for Limfinity® Biobanking LIMS, translating complex workflows into accessible, user-centered documentation for technical and non-technical audiences. 
+      - "Led localization workflows using MadCap Flare and Lingo, enabling scalable translation and global delivery of documentation across eight languages: German, Croatian, Slovak, French, Italian, Spanish, Japanese, and Portuguese."
+      - Created 28 detailed hardware procedures based on field observation, improving operator efficiency and reducing training gaps. 
     
   - title: Writing Center Tutor
     company: UMass Amherst Writing Center
