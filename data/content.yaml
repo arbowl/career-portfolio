@@ -125,18 +125,6 @@ projects:
     period: April 2026 - Present
     featured: true
   
-  - title: Beacon Hill Stipends
-    url: https://beaconhillstipends.org
-    description: Statute-driven compensation calculation system for all 198 Massachusetts legislators. Every computed value is wrapped in a provenance object providing transparent, traceable explanations for each salary component.
-    image: bhst.png
-    tags:
-      - Auditability
-      - Data Provenance
-      - Cross-Functional Collaboration
-      - Modeling
-    period: November 2025 - Present
-    featured: true
-  
   - title: RasPi Cyberdeck
     url: https://github.com/arbowl/cyberdeck-battery-indicator
     description: Portable battery-powered Raspberry Pi fully enclosed in a Pelican case. Hosts a retro games emulator, media server, and screen mirroring. Includes a custom-coded battery indicator and power management system.
@@ -147,6 +135,18 @@ projects:
       - Battery Management
       - Electromechanical Design
     period: March 2021 - Present
+    featured: true
+  
+  - title: Beacon Hill Stipends
+    url: https://beaconhillstipends.org
+    description: Statute-driven compensation calculation system for all 198 Massachusetts legislators. Every computed value is wrapped in a provenance object providing transparent, traceable explanations for each salary component.
+    image: bhst.png
+    tags:
+      - Auditability
+      - Data Provenance
+      - Cross-Functional Collaboration
+      - Modeling
+    period: November 2025 - Present
     featured: true
 
 
