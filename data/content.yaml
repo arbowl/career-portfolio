@@ -112,6 +112,18 @@ projects:
       - Scraping
     period: August 2025 - Present
     featured: true
+
+  - title: garden
+    url: https://github.com/arbowl/garden
+    description: An RSS feed with customizable agentic LLM-driven curation and simulation. "Garden" your feed by creating archetypes that represent different user personas and then have the agents simulate how those users would interact with the content. The agents can then curate the feed based on their interactions, providing a personalized and dynamic content experience.
+    image: garden.png
+    tags:
+      - Python
+      - HTMX
+      - Agents
+      - Algorithms
+    period: April 2026 - Present
+    featured: true
   
   - title: Beacon Hill Stipends
     url: https://beaconhillstipends.org
@@ -135,18 +147,6 @@ projects:
       - Power Management
       - NAS
     period: March 2021 - Present
-    featured: true
-
-  - title: Meshcore
-    url: https://github.com/arbowl/meshcore
-    description: A hexagonal core which connects to an ESP32 Meshtastic radio node and provides an event-driven adapter layer. UI components allow users to send and receives messages, as well as track telemetry from the local network.
-    image: meshcore.png
-    tags:
-      - Radio
-      - ESP32
-      - Hexagonal
-      - Mesh Networking
-    period: January 2026 - Present
     featured: true
 
 
