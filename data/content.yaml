@@ -106,11 +106,35 @@ projects:
     description: Adaptive legislative document parsing pipeline and state-machine-driven timeline engine that tracks Massachusetts Legislature compliance with procedural rules. Enables auditable, rule-based detection of deviations over time with full provenance tracking.
     image: bhct.png
     tags:
-      - Python
-      - Document Parsing
-      - State Machines
-      - Scraping
+      - Full Stack Development
+      - Deterministic Pipelines
+      - Finite State Machines
+      - Scraping Algorithms
     period: August 2025 - Present
+    featured: true
+
+  - title: garden
+    url: https://github.com/arbowl/garden
+    description: An RSS feed with customizable agentic LLM-driven curation and simulation. "Garden" your feed by creating archetypes that represent different user personas and then have the agents simulate how those users would interact with the content. The agents can then curate the feed based on their interactions, providing a personalized and dynamic content experience.
+    image: garden.png
+    tags:
+      - Simulation
+      - HTMX
+      - Agentic LLMs
+      - Ranking Algorithms
+    period: April 2026 - Present
+    featured: true
+  
+  - title: RasPi Cyberdeck
+    url: https://github.com/arbowl/cyberdeck-battery-indicator
+    description: Portable battery-powered Raspberry Pi fully enclosed in a Pelican case. Hosts a retro games emulator, media server, and screen mirroring. Includes a custom-coded battery indicator and power management system.
+    image: cyberdeck.png
+    tags:
+      - Linux Development
+      - Networking
+      - Battery Management
+      - Electromechanical Design
+    period: March 2021 - Present
     featured: true
   
   - title: Beacon Hill Stipends
@@ -118,35 +142,11 @@ projects:
     description: Statute-driven compensation calculation system for all 198 Massachusetts legislators. Every computed value is wrapped in a provenance object providing transparent, traceable explanations for each salary component.
     image: bhst.png
     tags:
-      - Python
-      - Provenance
-      - Pipelines
+      - Auditability
+      - Data Provenance
+      - Cross-Functional Collaboration
       - Modeling
     period: November 2025 - Present
-    featured: true
-  
-  - title: RasPi Cyberdeck
-    url: https://github.com/arbowl/cyberdeck-battery-indicator
-    description: Portable battery-powered Raspberry Pi fully enclosed in a Pelican case. Hosts a retro games emulator, media server, and screen mirroring. Includes a custom-coded battery indicator and power management system. Also runs Meshcore.
-    image: cyberdeck.png
-    tags:
-      - Raspberry Pi
-      - RetroPi
-      - Power Management
-      - NAS
-    period: March 2021 - Present
-    featured: true
-
-  - title: Meshcore
-    url: https://github.com/arbowl/meshcore
-    description: A hexagonal core which connects to an ESP32 Meshtastic radio node and provides an event-driven adapter layer. UI components allow users to send and receives messages, as well as track telemetry from the local network.
-    image: meshcore.png
-    tags:
-      - Radio
-      - ESP32
-      - Hexagonal
-      - Mesh Networking
-    period: January 2026 - Present
     featured: true
 
 
