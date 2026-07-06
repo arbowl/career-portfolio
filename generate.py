@@ -13,7 +13,7 @@ def load_content() -> dict:
 
 
 def generate_html(data: dict) -> str:
-    """Generate HTML for the portfolio site.
+    """Generate HTML file for the portfolio site.
 
     Args:
         data: Dictionary containing all portfolio content from YAML.
